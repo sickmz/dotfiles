@@ -29,6 +29,9 @@
     ```
     $ yay -S --needed - < aur_pkglist.txt
    ```
+   
+## Theme
+[Dracula](https://draculatheme.com/): dark theme with some changes. 
 
 ## Arch installation guide
 
