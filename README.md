@@ -19,7 +19,7 @@
 
    [Action]
    When = PostTransaction
-   Exec = /bin/sh -c '/usr/bin/pacman -Qqen > /home/matteo/.backup/official_pkglist.txt && /usr/bin/pacman -Qqem > /home/matteo/.backup/aur_pkglist.txt '
+   Exec = /bin/sh -c '/usr/bin/pacman -Qqen > ~/.backup/official_pkglist.txt && /usr/bin/pacman -Qqem > ~/.backup/aur_pkglist.txt '
    ```
  - Restore official packages from a list
     ```
