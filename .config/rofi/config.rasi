@@ -1,10 +1,10 @@
 /*Dracula theme based on the Purple official rofi theme*/
 
 * {
-    font: "Jetbrains Mono 12";
+    font: "Iosevka 10";
     foreground: #f8f8f2;
     background-color: #282a36;
-    active-background: #6272a4;
+    active-background: #b61fdf;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
@@ -16,9 +16,11 @@
 #window {
     background-color: @background;
     border:           1;
-    border-radius: 6;
+    border-radius: 0;
     border-color: @bordercolor;
     padding:          5;
+    width: 250;
+    height: 250;
 }
 #mainbox {
     border:  0;
