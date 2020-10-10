@@ -1,2 +1,1 @@
-shxkd &
-exec bspwm
+exec i3
