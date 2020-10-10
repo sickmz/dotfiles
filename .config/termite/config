@@ -12,7 +12,7 @@ font = Iosevka 10
 # special
 foreground      = #f8f8f2
 foreground_bold = #f8f8f2
-cursor          = #f8f8f2
+cursor          = #b61fdf
 background      = rgba(40, 42, 54, 1)
 
 # black
