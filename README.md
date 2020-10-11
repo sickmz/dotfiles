@@ -53,6 +53,6 @@ Follow this [gist](https://gist.github.com/sickmz/cd2a0527c0e9d61abd4e212a73fc5a
    * Regenerate grub configuration `$ sudo grub-mkconfig -o /boot/grub/grub.cfg`
 - Remove orphans: `$ sudo pacman -Rns $(pacman -Qtdq)`
 - Optimize pacman's database access speeds: `$ sudo pacman-optimize`
-Check for errors:
+- Check for errors:
    * sudo `$ systemctl --failed`
    * sudo `$ journalctl -p 3 -xb`
